@@ -1,0 +1,34 @@
+/* Add your Header component styles here */
+
+.header {
+  background-color: #ce3030;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1d4ed8;
+}
+
+.header nav {
+  display: flex;
+  gap: 1rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+.header nav a:hover {
+  color: #bcc2d1;
+  transition: color 0.2s;
+}
